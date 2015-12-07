@@ -48,7 +48,7 @@ for i in range(0,len(countriespop)):
             population1.append(population[i]) #записываем данные по населению
             
 for i in range(0,len(countries)):
-    peoplech.append(chrome1[i]*population[i]/100) #считаем количество человек в каждой стране, использующих Chrome
+    peoplech.append(chrome1[i]*population1[i]/100) #считаем количество человек в каждой стране, использующих Chrome
 
 max = peoplech[0]
 c = 0
